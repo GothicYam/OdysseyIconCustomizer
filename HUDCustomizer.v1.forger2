@@ -1,0 +1,873 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "HUD Customizer",
+	"CollectionVersion": 1,
+	"CollectionID": "TrigAsusHUDCustomizer",
+	"Patches": [
+		{
+			"PatchTitle": "Quest Giver - Map",
+			"PatchDescription": "Removes the Quest Giver Icon from Map",
+			"PatchID": "HUDCustomizer_Map_UIIcon_MissionGiver_Main",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 69568652820,
+					"Edits": [
+						{
+							"OffsetHex": "DB",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Quest Giver - HUD",
+			"PatchDescription": "Removes the Quest Giver Icon from HUD",
+			"PatchID": "HUDCustomizer_HUD_UIIcon_MissionGiver_Main",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 69568652820,
+					"Edits": [
+						{
+							"OffsetHex": "12F",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Quest Giver - Compass",
+			"PatchDescription": "Removes the Quest Giver Icon from Compass",
+			"PatchID": "HUDCustomizer_Compass_UIIcon_MissionGiver_Main",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 69568652820,
+					"Edits": [
+						{
+							"OffsetHex": "18A",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Quest Giver - Eagle",
+			"PatchDescription": "Removes the Quest Giver Icon from Eagle",
+			"PatchID": "HUDCustomizer_Eagle_UIIcon_MissionGiver_Main",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 69568652820,
+					"Edits": [
+						{
+							"OffsetHex": "1D8",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lost Tales Quest Giver - Map",
+			"PatchDescription": "Removes the Lost Tales Quest Giver Icon from Map",
+			"PatchID": "HUDCustomizer_Map_UIIcon_MissionGiver_StoryPack",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1806189759896,
+					"Edits": [
+						{
+							"OffsetHex": "E0",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lost Tales Quest Giver - HUD",
+			"PatchDescription": "Removes the Lost Tales Quest Giver Icon from HUD",
+			"PatchID": "HUDCustomizer_HUD_UIIcon_MissionGiver_StoryPack",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1806189759896,
+					"Edits": [
+						{
+							"OffsetHex": "134",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lost Tales Quest Giver - Compass",
+			"PatchDescription": "Removes the Lost Tales Quest Giver Icon from Compass",
+			"PatchID": "HUDCustomizer_Compass_UIIcon_MissionGiver_StoryPack",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1806189759896,
+					"Edits": [
+						{
+							"OffsetHex": "18F",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lost Tales Quest Giver - Eagle",
+			"PatchDescription": "Removes the Lost Tales Quest Giver Icon from Eagle",
+			"PatchID": "HUDCustomizer_Eagle_UIIcon_MissionGiver_StoryPack",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1806189759896,
+					"Edits": [
+						{
+							"OffsetHex": "1DD",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Live Objective - Map",
+			"PatchDescription": "Removes the Live Objective Icon from Map",
+			"PatchID": "HUDCustomizer_Map_ACD_UIIcon_QuestObjective_Live",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1688602046884,
+					"Edits": [
+						{
+							"OffsetHex": "E1",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Live Objective - HUD",
+			"PatchDescription": "Removes the Live Objective Icon from HUD",
+			"PatchID": "HUDCustomizer_HUD_ACD_UIIcon_QuestObjective_Live",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1688602046884,
+					"Edits": [
+						{
+							"OffsetHex": "135",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Live Objective - Compass",
+			"PatchDescription": "Removes the Live Objective Icon from Compass",
+			"PatchID": "HUDCustomizer_Compass_ACD_UIIcon_QuestObjective_Live",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1688602046884,
+					"Edits": [
+						{
+							"OffsetHex": "190",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Live Objective - Eagle",
+			"PatchDescription": "Removes the Live Objective Icon from Eagle",
+			"PatchID": "HUDCustomizer_Eagle_ACD_UIIcon_QuestObjective_Live",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1688602046884,
+					"Edits": [
+						{
+							"OffsetHex": "1DE",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Timed Quest - Map",
+			"PatchDescription": "Removes the Timed Quest Icon from Map",
+			"PatchID": "HUDCustomizer_Map_UIIcon_MissionGiver_Procedural",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1588814804155,
+					"Edits": [
+						{
+							"OffsetHex": "E1",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Timed Quest - HUD",
+			"PatchDescription": "Removes the Timed Quest Icon from HUD",
+			"PatchID": "HUDCustomizer_HUD_UIIcon_MissionGiver_Procedural",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1588814804155,
+					"Edits": [
+						{
+							"OffsetHex": "135",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Timed Quest - Compass",
+			"PatchDescription": "Removes the Timed Quest Icon from Compass",
+			"PatchID": "HUDCustomizer_Compass_UIIcon_MissionGiver_Procedural",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1588814804155,
+					"Edits": [
+						{
+							"OffsetHex": "190",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Timed Quest - Eagle",
+			"PatchDescription": "Removes the Timed Quest Icon from Eagle",
+			"PatchID": "HUDCustomizer_Eagle_UIIcon_MissionGiver_Procedural",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1588814804155,
+					"Edits": [
+						{
+							"OffsetHex": "1DE",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Impact Quest Giver - Map",
+			"PatchDescription": "Removes the Impact Quest Giver Icon from Map",
+			"PatchID": "HUDCustomizer_Map_UIIcon_MissionGiver_Procedural_ImpactQuest_Real",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1689660729642,
+					"Edits": [
+						{
+							"OffsetHex": "F2",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Impact Quest Giver - HUD",
+			"PatchDescription": "Removes the Impact Quest Giver Icon from HUD",
+			"PatchID": "HUDCustomizer_HUD_UIIcon_MissionGiver_Procedural_ImpactQuest_Real",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1689660729642,
+					"Edits": [
+						{
+							"OffsetHex": "146",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Impact Quest Giver - Compass",
+			"PatchDescription": "Removes the Impact Quest Giver Icon from Compass",
+			"PatchID": "HUDCustomizer_Compass_UIIcon_MissionGiver_Procedural_ImpactQuest_Real",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1689660729642,
+					"Edits": [
+						{
+							"OffsetHex": "1A1",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Impact Quest Giver - Eagle",
+			"PatchDescription": "Removes the Impact Quest Giver Icon from Eagle",
+			"PatchID": "HUDCustomizer_Eagle_UIIcon_MissionGiver_Procedural_ImpactQuest_Real",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1689660729642,
+					"Edits": [
+						{
+							"OffsetHex": "1EF",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Add-On Quest Giver - Map",
+			"PatchDescription": "Removes the Add-On Quest Giver Icon from Map",
+			"PatchID": "HUDCustomizer_Map_UIIcon_MissionGiver_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_3\\DataPC_3_dlc.forge",
+					"FileID": 1756252764467,
+					"Edits": [
+						{
+							"OffsetHex": "DA",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Add-On Quest Giver - HUD",
+			"PatchDescription": "Removes the Add-On Quest Giver Icon from HUD",
+			"PatchID": "HUDCustomizer_HUD_UIIcon_MissionGiver_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_3\\DataPC_3_dlc.forge",
+					"FileID": 1756252764467,
+					"Edits": [
+						{
+							"OffsetHex": "12E",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Add-On Quest Giver - Compass",
+			"PatchDescription": "Removes the Add-On Quest Giver Icon from Compass",
+			"PatchID": "HUDCustomizer_Compass_UIIcon_MissionGiver_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_3\\DataPC_3_dlc.forge",
+					"FileID": 1756252764467,
+					"Edits": [
+						{
+							"OffsetHex": "189",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Add-On Quest Giver - Eagle",
+			"PatchDescription": "Removes the Add-On Quest Giver Icon from Eagle",
+			"PatchID": "HUDCustomizer_Eagle_UIIcon_MissionGiver_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_3\\DataPC_3_dlc.forge",
+					"FileID": 1756252764467,
+					"Edits": [
+						{
+							"OffsetHex": "1D7",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Add-On Quest Objective - Map",
+			"PatchDescription": "Removes the Add-On Quest Objective Icon from Map",
+			"PatchID": "HUDCustomizer_Map_ACD_UIIcon_QuestObjective_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_3\\DataPC_3_dlc.forge",
+					"FileID": 1756252846148,
+					"Edits": [
+						{
+							"OffsetHex": "E0",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Add-On Quest Objective - HUD",
+			"PatchDescription": "Removes the Add-On Quest Objective Icon from HUD",
+			"PatchID": "HUDCustomizer_HUD_ACD_UIIcon_QuestObjective_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_3\\DataPC_3_dlc.forge",
+					"FileID": 1756252846148,
+					"Edits": [
+						{
+							"OffsetHex": "134",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Add-On Quest Objective - Compass",
+			"PatchDescription": "Removes the Add-On Quest Objective Icon from Compass",
+			"PatchID": "HUDCustomizer_Compass_ACD_UIIcon_QuestObjective_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_3\\DataPC_3_dlc.forge",
+					"FileID": 1756252846148,
+					"Edits": [
+						{
+							"OffsetHex": "18F",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Add-On Quest Objective - Eagle",
+			"PatchDescription": "Removes the Add-On Quest Objective Icon from Eagle",
+			"PatchID": "HUDCustomizer_Eagle_ACD_UIIcon_QuestObjective_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_3\\DataPC_3_dlc.forge",
+					"FileID": 1756252846148,
+					"Edits": [
+						{
+							"OffsetHex": "1DD",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Korfu Quest Giver - Map",
+			"PatchDescription": "Removes the Korfu Quest Giver Icon from Map",
+			"PatchID": "HUDCustomizer_Map_UIIcon_MissionGiver_ACDC_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 2105403628799,
+					"Edits": [
+						{
+							"OffsetHex": "DF",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Korfu Quest Giver - HUD",
+			"PatchDescription": "Removes the Korfu Quest Giver Icon from HUD",
+			"PatchID": "HUDCustomizer_HUD_UIIcon_MissionGiver_ACDC_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 2105403628799,
+					"Edits": [
+						{
+							"OffsetHex": "133",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Korfu Quest Giver - Compass",
+			"PatchDescription": "Removes the Korfu Quest Giver Icon from Compass",
+			"PatchID": "HUDCustomizer_Compass_UIIcon_MissionGiver_ACDC_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 2105403628799,
+					"Edits": [
+						{
+							"OffsetHex": "18E",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Korfu Quest Giver - Eagle",
+			"PatchDescription": "Removes the Korfu Quest Giver Icon from Eagle",
+			"PatchID": "HUDCustomizer_Eagle_UIIcon_MissionGiver_ACDC_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 2105403628799,
+					"Edits": [
+						{
+							"OffsetHex": "1DC",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Korfu Quest Objective - Map",
+			"PatchDescription": "Removes the Korfu Quest Objective Icon from Map",
+			"PatchID": "HUDCustomizer_Map_ACD_UIIcon_QuestObjective_ACDC_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 2105403628801,
+					"Edits": [
+						{
+							"OffsetHex": "E5",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Korfu Quest Objective - HUD",
+			"PatchDescription": "Removes the Korfu Quest Objective Icon from HUD",
+			"PatchID": "HUDCustomizer_HUD_ACD_UIIcon_QuestObjective_ACDC_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 2105403628801,
+					"Edits": [
+						{
+							"OffsetHex": "139",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Korfu Quest Objective - Compass",
+			"PatchDescription": "Removes the Korfu Quest Objective Icon from Compass",
+			"PatchID": "HUDCustomizer_Compass_ACD_UIIcon_QuestObjective_ACDC_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 2105403628801,
+					"Edits": [
+						{
+							"OffsetHex": "194",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Korfu Quest Objective - Eagle",
+			"PatchDescription": "Removes the Korfu Quest Objective Icon from Eagle",
+			"PatchID": "HUDCustomizer_Eagle_ACD_UIIcon_QuestObjective_ACDC_DLC",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 2105403628801,
+					"Edits": [
+						{
+							"OffsetHex": "1E2",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Mysterious Site - Map",
+			"PatchDescription": "Removes the Mysterious Site Icon from Map",
+			"PatchID": "HUDCustomizer_Map_ACD_UIIcon_Location_MyticalCreature_Discovered",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1656969762471,
+					"Edits": [
+						{
+							"OffsetHex": "F1",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Mysterious Site - HUD",
+			"PatchDescription": "Removes the Mysterious Site Icon from HUD",
+			"PatchID": "HUDCustomizer_HUD_ACD_UIIcon_Location_MyticalCreature_Discovered",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1656969762471,
+					"Edits": [
+						{
+							"OffsetHex": "145",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Mysterious Site - Compass",
+			"PatchDescription": "Removes the Mysterious Site Icon from Compass",
+			"PatchID": "HUDCustomizer_Compass_ACD_UIIcon_Location_MyticalCreature_Discovered",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1656969762471,
+					"Edits": [
+						{
+							"OffsetHex": "1A0",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Mysterious Site - Eagle",
+			"PatchDescription": "Removes the Mysterious Site Icon from Eagle",
+			"PatchID": "HUDCustomizer_Eagle_ACD_UIIcon_Location_MyticalCreature_Discovered",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1656969762471,
+					"Edits": [
+						{
+							"OffsetHex": "1EE",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Live Event Site - Map",
+			"PatchDescription": "Removes the Live Event Site Icon from Map",
+			"PatchID": "HUDCustomizer_Map_ACD_UIIcon_Location_Live_MyticalCreature_Discovered",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1778087005149,
+					"Edits": [
+						{
+							"OffsetHex": "F6",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Live Event Site - HUD",
+			"PatchDescription": "Removes the Live Event Site Icon from HUD",
+			"PatchID": "HUDCustomizer_HUD_ACD_UIIcon_Location_Live_MyticalCreature_Discovered",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1778087005149,
+					"Edits": [
+						{
+							"OffsetHex": "14A",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Live Event Site - Compass",
+			"PatchDescription": "Removes the Live Event Site Icon from Compass",
+			"PatchID": "HUDCustomizer_Compass_ACD_UIIcon_Location_Live_MyticalCreature_Discovered",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1778087005149,
+					"Edits": [
+						{
+							"OffsetHex": "1A5",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Live Event Site - Eagle",
+			"PatchDescription": "Removes the Live Event Site Icon from Eagle",
+			"PatchID": "HUDCustomizer_Eagle_ACD_UIIcon_Location_Live_MyticalCreature_Discovered",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1778087005149,
+					"Edits": [
+						{
+							"OffsetHex": "1F3",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Bounty Sponsor - Map",
+			"PatchDescription": "Removes the Bounty Sponsor Icon from Map",
+			"PatchID": "HUDCustomizer_Map_ACD_UIIcon_NPC_Sheriff",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1235197309316,
+					"Edits": [
+						{
+							"OffsetHex": "D9",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Bounty Sponsor - HUD",
+			"PatchDescription": "Removes the Bounty Sponsor Icon from HUD",
+			"PatchID": "HUDCustomizer_HUD_ACD_UIIcon_NPC_Sheriff",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1235197309316,
+					"Edits": [
+						{
+							"OffsetHex": "12D",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Bounty Sponsor - Compass",
+			"PatchDescription": "Removes the Bounty Sponsor Icon from Compass",
+			"PatchID": "HUDCustomizer_Compass_ACD_UIIcon_NPC_Sheriff",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1235197309316,
+					"Edits": [
+						{
+							"OffsetHex": "188",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Bounty Sponsor - Eagle",
+			"PatchDescription": "Removes the Bounty Sponsor Icon from Eagle",
+			"PatchID": "HUDCustomizer_Eagle_ACD_UIIcon_NPC_Sheriff",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1235197309316,
+					"Edits": [
+						{
+							"OffsetHex": "1D6",
+							"Data": "00"
+						}
+					]
+				}
+			]
+		}
+	]
+}
