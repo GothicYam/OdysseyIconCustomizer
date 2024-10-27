@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Icon Preset Creator</h1>
+    
+    <!-- Input fields for preset title and description -->
+    <div id="preset-inputs">
+        <input type="text" id="preset-title" placeholder="Enter Preset Title">
+        <input type="text" id="preset-description" placeholder="Enter Preset Description">
+    </div>
+
+    <div id="button-container">
+        <!-- Add a wrapper for the radio buttons -->
+        <div class="radio-buttons">
+            <label class="radio-label">
+                <input type="radio" name="visibility" value="hide" checked>
+                Hide Icons
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="visibility" value="show">
+                Show Icons
+            </label>
+        </div>
+        
+        <!-- Other buttons... -->
+        <button id="select-all-map-button">Select All Map</button>
+        <button id="select-all-hud-button">Select All HUD</button>
+        <button id="select-all-compass-button">Select All Compass</button>
+        <button id="select-all-eagle-button">Select All Eagle</button>
+        <button id="select-all-button">Select All</button>
+        <button id="unselect-all-button">Unselect All</button>
+    </div>
+    
+
+    <div id="image-container"></div>
+    <button id="submit-button">Make Preset</button>
+
+    <!-- Modal for JSON output -->
+    <div id="json-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Generated JSON</h2>
+            <pre id="json-output"></pre>
+            <button id="copy-button">Copy to Clipboard</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
